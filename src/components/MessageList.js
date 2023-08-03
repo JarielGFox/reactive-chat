@@ -1,3 +1,5 @@
+// componente che mostra i messaggi, riceve le props dal componente "ChatRoom"
+
 import React from 'react';
 import Message from './Message';
 

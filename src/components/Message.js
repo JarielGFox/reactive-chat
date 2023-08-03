@@ -1,3 +1,5 @@
+// questo è il componente che mostra il messaggio singolo, riceve il "text" ed il "sender" come props da MessageList
+
 import React from 'react';
 
 class Message extends React.Component {

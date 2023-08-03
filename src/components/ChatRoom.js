@@ -1,10 +1,13 @@
+// componente principale dell'app, ne gestirà gli stati ad esempio user e messaggi
+
 import React from 'react';
 import MessageList from './MessageList';
 import InputBox from './InputBox';
 
-// creiamo classe che eredita dalla classe React.Component della libreria
+// quando un componente è definito come classe estende "React.Component" ereditandone proprietà e metodi
 class ChatRoom extends React.Component {
     constructor(props) {
+        //si fa riferimento al costruttore della classe padre, ossia "Ract.Component"
         super(props);
         this.state = {
             // se c'è già un username nel localstorage prende quello

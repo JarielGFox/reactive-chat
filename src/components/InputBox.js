@@ -1,3 +1,5 @@
+// Contiene l'input che l'utente andrà ad inserire. Passerà l'invio del messaggio come prop al componente "ChatRoom"
+
 import React from 'react';
 
 class InputBox extends React.Component {
